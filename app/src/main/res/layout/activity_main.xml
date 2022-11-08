@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="222dp"
+        android:layout_height="307dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="46dp"
+        android:contentDescription="@string/android"
+        app:srcCompat="@drawable/parimpar" />
+
+    <RadioGroup
+        android:layout_width="373dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/selectPar"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/par"
+                android:textColor="@color/middle_green"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+
+            <RadioButton
+                android:id="@+id/selectImpar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/impar"
+                android:textColor="@color/middle_green"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+        </LinearLayout>
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imgZero"
+        android:layout_width="64dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="90dp"
+        android:contentDescription="@string/zero"
+        app:srcCompat="@drawable/f0" />
+
+    <ImageView
+        android:id="@+id/imgUm"
+        android:layout_width="64dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginBottom="91dp"
+        android:contentDescription="@string/um"
+        app:srcCompat="@drawable/f1" />
+
+    <ImageView
+        android:id="@+id/imgDois"
+        android:layout_width="64dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginBottom="93dp"
+        android:contentDescription="@string/dois"
+        app:srcCompat="@drawable/f2" />
+
+    <ImageView
+        android:id="@+id/imgTres"
+        android:layout_width="64dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="213dp"
+        android:layout_marginBottom="93dp"
+        android:contentDescription="@string/tres"
+        app:srcCompat="@drawable/f3" />
+
+    <ImageView
+        android:id="@+id/imgCinco"
+        android:layout_width="64dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="344dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="93dp"
+        android:contentDescription="@string/cinco"
+        app:srcCompat="@drawable/f5" />
+
+    <ImageView
+        android:id="@+id/imgQuatro"
+        android:layout_width="64dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/imgCinco"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="277dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="93dp"
+        android:contentDescription="@string/quatro"
+        app:srcCompat="@drawable/f4"
+        tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/jogar"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:backgroundTint="@color/middle_green"
+        android:text="@string/jogue"
+        tools:ignore="TextContrastCheck" />
+
+</RelativeLayout>

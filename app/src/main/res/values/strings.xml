@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Par Ou Impar</string>
+    <string name="android">android</string>
+    <string name="dois">dois</string>
+    <string name="quatro">quatro</string>
+    <string name="cinco">cinco</string>
+    <string name="tres">tres</string>
+    <string name="um">um</string>
+    <string name="zero">zero</string>
+    <string name="impar">IMPAR</string>
+    <string name="par">PAR</string>
+    <string name="jogue">JOGUE</string>
+    <string name="androidIMG">ANDROID</string>
+    <string name="perdeu">PERDEU!!!!!!</string>
+    <string name="voltar">VOLTAR</string>
+    <string name="voce">VOCÊ</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+</resources>
